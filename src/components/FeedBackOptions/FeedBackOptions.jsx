@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const FeedBackOptions = ({ options, onLeaveFeedback }) => {
+export function FeedBackOptions ({ options, onLeaveFeedback }) {
 	return (
 		<>
 			{options.map(option => (
